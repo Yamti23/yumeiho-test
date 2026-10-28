@@ -1,0 +1,1 @@
+document.querySelectorAll('#educationContact,[data-education-link]').forEach(link=>{link.href='../#contact';link.addEventListener('click',()=>{try{sessionStorage.setItem('yumeiho-inquiry','academy')}catch(e){}})});

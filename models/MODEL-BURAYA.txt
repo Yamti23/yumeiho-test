@@ -1,0 +1,2 @@
+ecorche.meshopt.glb veya ecorche.glb dosyasını bu klasöre yerleştirin.
+Kaynak: https://github.com/Charleeh/ecorche (CC BY-SA 4.0)

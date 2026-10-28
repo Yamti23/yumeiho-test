@@ -1,0 +1,1 @@
+Lisansli, dogrulanmis GLB anatomi modelinizi anatomy.glb olarak bu klasore yerlestirebilirsiniz. anatomy3d.js icindeki loadModel satirini etkinlestirin. GLTF dosyalari harici dokular icerebilir; tek dosya GLB onerilir.
