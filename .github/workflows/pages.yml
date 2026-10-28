@@ -1,0 +1,44 @@
+name: Publish Yumeiho test site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare site and import source files
+        run: |
+          mkdir -p /tmp/yumeiho-public
+          if [ -f yumeiho-site.zip ]; then
+            unzip -q yumeiho-site.zip -d /tmp/yumeiho-public
+            cp -a /tmp/yumeiho-public/. .
+            git rm yumeiho-site.zip
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add .
+            git commit -m 'Import complete Yumeiho website source and assets'
+            git push
+          else
+            rsync -a --exclude='.git' --exclude='.github' ./ /tmp/yumeiho-public/
+          fi
+          test -f /tmp/yumeiho-public/index.html
+          test -f /tmp/yumeiho-public/galeri/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/yumeiho-public
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
