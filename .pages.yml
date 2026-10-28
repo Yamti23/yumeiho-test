@@ -1,0 +1,151 @@
+{
+  "media": {
+    "input": "assets/uploads",
+    "output": "/assets/uploads",
+    "extensions": [
+      "jpg",
+      "jpeg",
+      "png",
+      "webp"
+    ],
+    "rename": "safe"
+  },
+  "content": [
+    {
+      "name": "gallery",
+      "label": "Fotoğraf Galerisi",
+      "type": "file",
+      "path": "content/gallery.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "photos",
+          "label": "Fotoğraflar",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "id",
+              "label": "Kayıt kodu",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "title",
+              "label": "Başlık",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "alt",
+              "label": "Görsel açıklaması",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "category",
+              "label": "Kategori",
+              "type": "select",
+              "options": {
+                "values": [
+                  {
+                    "value": "uygulama",
+                    "label": "Uygulamalar"
+                  },
+                  {
+                    "value": "egitim",
+                    "label": "Eğitimler"
+                  },
+                  {
+                    "value": "bulusma",
+                    "label": "Uluslararası Buluşmalar"
+                  }
+                ]
+              },
+              "required": true
+            },
+            {
+              "name": "image",
+              "label": "Fotoğraf",
+              "type": "image",
+              "required": true
+            },
+            {
+              "name": "thumbnail",
+              "label": "Küçük görsel (isteğe bağlı)",
+              "type": "image"
+            },
+            {
+              "name": "order",
+              "label": "Sıra",
+              "type": "number"
+            },
+            {
+              "name": "published",
+              "label": "Sitede göster",
+              "type": "boolean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "trainings",
+      "label": "Eğitim Takvimi",
+      "type": "file",
+      "path": "content/trainings.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "events",
+          "label": "Eğitimler",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "id",
+              "label": "Kayıt kodu",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "title",
+              "label": "Eğitim başlığı",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "date",
+              "label": "Tarih bilgisi",
+              "type": "string",
+              "description": "Örn. 10–13 Kasım 2026 veya Tarih için iletişime geçin",
+              "required": true
+            },
+            {
+              "name": "location",
+              "label": "Yer",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "description",
+              "label": "Açıklama",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "order",
+              "label": "Sıra",
+              "type": "number"
+            },
+            {
+              "name": "published",
+              "label": "Sitede göster",
+              "type": "boolean"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

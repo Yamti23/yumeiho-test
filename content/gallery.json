@@ -1,0 +1,294 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 1",
+      "category": "egitim",
+      "image": "assets/gallery/001.webp",
+      "thumbnail": "assets/gallery/001-thumb.webp",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "2",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 2",
+      "category": "egitim",
+      "image": "assets/gallery/002.webp",
+      "thumbnail": "assets/gallery/002-thumb.webp",
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "4",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 4",
+      "category": "egitim",
+      "image": "assets/gallery/004.webp",
+      "thumbnail": "assets/gallery/004-thumb.webp",
+      "order": 3,
+      "published": true
+    },
+    {
+      "id": "5",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 5",
+      "category": "egitim",
+      "image": "assets/gallery/005.webp",
+      "thumbnail": "assets/gallery/005-thumb.webp",
+      "order": 4,
+      "published": true
+    },
+    {
+      "id": "6",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 6",
+      "category": "egitim",
+      "image": "assets/gallery/006.webp",
+      "thumbnail": "assets/gallery/006-thumb.webp",
+      "order": 5,
+      "published": true
+    },
+    {
+      "id": "7",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 7",
+      "category": "egitim",
+      "image": "assets/gallery/007.webp",
+      "thumbnail": "assets/gallery/007-thumb.webp",
+      "order": 6,
+      "published": true
+    },
+    {
+      "id": "8",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 8",
+      "category": "egitim",
+      "image": "assets/gallery/008.webp",
+      "thumbnail": "assets/gallery/008-thumb.webp",
+      "order": 7,
+      "published": true
+    },
+    {
+      "id": "9",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 9",
+      "category": "egitim",
+      "image": "assets/gallery/009.webp",
+      "thumbnail": "assets/gallery/009-thumb.webp",
+      "order": 8,
+      "published": true
+    },
+    {
+      "id": "12",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 12",
+      "category": "egitim",
+      "image": "assets/gallery/012.webp",
+      "thumbnail": "assets/gallery/012-thumb.webp",
+      "order": 9,
+      "published": true
+    },
+    {
+      "id": "14",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 14",
+      "category": "egitim",
+      "image": "assets/gallery/014.webp",
+      "thumbnail": "assets/gallery/014-thumb.webp",
+      "order": 10,
+      "published": true
+    },
+    {
+      "id": "16",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 16",
+      "category": "egitim",
+      "image": "assets/gallery/016.webp",
+      "thumbnail": "assets/gallery/016-thumb.webp",
+      "order": 11,
+      "published": true
+    },
+    {
+      "id": "23",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 23",
+      "category": "egitim",
+      "image": "assets/gallery/023.webp",
+      "thumbnail": "assets/gallery/023-thumb.webp",
+      "order": 12,
+      "published": true
+    },
+    {
+      "id": "24",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 24",
+      "category": "egitim",
+      "image": "assets/gallery/024.webp",
+      "thumbnail": "assets/gallery/024-thumb.webp",
+      "order": 13,
+      "published": true
+    },
+    {
+      "id": "25",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 25",
+      "category": "bulusma",
+      "image": "assets/gallery/025.webp",
+      "thumbnail": "assets/gallery/025-thumb.webp",
+      "order": 14,
+      "published": true
+    },
+    {
+      "id": "26",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 26",
+      "category": "bulusma",
+      "image": "assets/gallery/026.webp",
+      "thumbnail": "assets/gallery/026-thumb.webp",
+      "order": 15,
+      "published": true
+    },
+    {
+      "id": "27",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 27",
+      "category": "bulusma",
+      "image": "assets/gallery/027.webp",
+      "thumbnail": "assets/gallery/027-thumb.webp",
+      "order": 16,
+      "published": true
+    },
+    {
+      "id": "28",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 28",
+      "category": "egitim",
+      "image": "assets/gallery/028.webp",
+      "thumbnail": "assets/gallery/028-thumb.webp",
+      "order": 17,
+      "published": true
+    },
+    {
+      "id": "30",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 30",
+      "category": "bulusma",
+      "image": "assets/gallery/030.webp",
+      "thumbnail": "assets/gallery/030-thumb.webp",
+      "order": 18,
+      "published": true
+    },
+    {
+      "id": "31",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 31",
+      "category": "bulusma",
+      "image": "assets/gallery/031.webp",
+      "thumbnail": "assets/gallery/031-thumb.webp",
+      "order": 19,
+      "published": true
+    },
+    {
+      "id": "32",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 32",
+      "category": "bulusma",
+      "image": "assets/gallery/032.webp",
+      "thumbnail": "assets/gallery/032-thumb.webp",
+      "order": 20,
+      "published": true
+    },
+    {
+      "id": "37",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 37",
+      "category": "bulusma",
+      "image": "assets/gallery/037.webp",
+      "thumbnail": "assets/gallery/037-thumb.webp",
+      "order": 21,
+      "published": true
+    },
+    {
+      "id": "38",
+      "title": "Uluslararası Yumeiho buluşmalarından",
+      "alt": "Uluslararası Yumeiho buluşmalarından — fotoğraf 38",
+      "category": "bulusma",
+      "image": "assets/gallery/038.webp",
+      "thumbnail": "assets/gallery/038-thumb.webp",
+      "order": 22,
+      "published": true
+    },
+    {
+      "id": "44",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 44",
+      "category": "egitim",
+      "image": "assets/gallery/044.webp",
+      "thumbnail": "assets/gallery/044-thumb.webp",
+      "order": 23,
+      "published": true
+    },
+    {
+      "id": "51",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 51",
+      "category": "egitim",
+      "image": "assets/gallery/051.webp",
+      "thumbnail": "assets/gallery/051-thumb.webp",
+      "order": 24,
+      "published": true
+    },
+    {
+      "id": "57",
+      "title": "Yumeiho eğitim arşivinden",
+      "alt": "Yumeiho eğitim arşivinden — fotoğraf 57",
+      "category": "egitim",
+      "image": "assets/gallery/057.webp",
+      "thumbnail": "assets/gallery/057-thumb.webp",
+      "order": 25,
+      "published": true
+    },
+    {
+      "id": "59",
+      "title": "Yumeiho uygulamasından bir an",
+      "alt": "Yumeiho uygulamasından bir an — fotoğraf 59",
+      "category": "uygulama",
+      "image": "assets/gallery/059.webp",
+      "thumbnail": "assets/gallery/059-thumb.webp",
+      "order": 26,
+      "published": true
+    },
+    {
+      "id": "61",
+      "title": "Yumeiho uygulamasından bir an",
+      "alt": "Yumeiho uygulamasından bir an — fotoğraf 61",
+      "category": "uygulama",
+      "image": "assets/gallery/061.webp",
+      "thumbnail": "assets/gallery/061-thumb.webp",
+      "order": 27,
+      "published": true
+    },
+    {
+      "id": "62",
+      "title": "Yumeiho uygulamasından bir an",
+      "alt": "Yumeiho uygulamasından bir an — fotoğraf 62",
+      "category": "uygulama",
+      "image": "assets/gallery/062.webp",
+      "thumbnail": "assets/gallery/062-thumb.webp",
+      "order": 28,
+      "published": true
+    },
+    {
+      "id": "63",
+      "title": "Yumeiho uygulamasından bir an",
+      "alt": "Yumeiho uygulamasından bir an — fotoğraf 63",
+      "category": "uygulama",
+      "image": "assets/gallery/063.webp",
+      "thumbnail": "assets/gallery/063-thumb.webp",
+      "order": 29,
+      "published": true
+    }
+  ]
+}
